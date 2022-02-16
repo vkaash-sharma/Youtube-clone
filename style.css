@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+h2{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navstart{
+    height: 2rem;
+    margin: 1rem;
+    display: flex;
+}
+img.menu{
+    margin-top: 5px;
+    height: 5vh;
+    margin-left: 1.5rem;
+}
+img.logo{
+    height: 7vh;
+    margin-left: 1.35rem;
+}
+button.firstbutton{
+    margin-top: 5px;
+    height: 100%;
+    width: 3rem;
+    border: 1px solid grey;
+}
+
+input.inputsearch{
+   margin-top: 5px;
+   height: 100%;
+    width: 35vw;
+    margin-left: 13.35rem;
+    border: 1px solid rgb(129, 121, 121);
+}
+img.micimage{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+img.micimage:hover{
+    background-color: lightgrey;
+    border-radius: 500%;
+    border: 1px solid black;
+}
+img.videologo{
+    margin-left: 13rem;
+    margin-top: 5px;
+}
+img.dot, .bellimage, .userimage{
+    margin-left: 2rem;
+    margin-top: 5px;
+}
+.fullbody{
+    display: flex;
+    margin-top: 3rem;
+}
+.fullbody .side-menu .individual img{
+    height: 1.5rem;
+  margin-left: 1.5rem;
+}
+.fullbody .side-menu .individual h3{
+    margin-left: 3rem;
+}
+.individual{
+    display: flex;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    padding-right: 5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: small;
+   
+}
+
+#forindividual{
+    background-color: #e9e9e9;
+}
+.individual:hover{
+    background-color: #e9e9e9;
+}
+.fullbody .maincontainer .vidcontainer img{
+    width: 17rem;
+    height: 10rem;
+}
+.fullbody .maincontainer{
+    padding-top: 1.25rem;
+    background-color: #f9f9f9;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+}
+.vidcontainer{
+    margin: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+}
+.navstart , img , .individual , .vidcontainer , button{
+    cursor: pointer;
+}
